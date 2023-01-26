@@ -117,7 +117,25 @@
         padding-left: 15px;
     }
 }
-@media all and (max-width:992px){}
+@media all and (max-width:992px){
+
+    .right-side-feed {
+        display: none;
+    }
+    
+    
+    .child-div-left img {
+        height: auto;
+        width: 500px;
+    }
+
+
+    .sub-nav .menu-bar {
+        margin-left: 0em;
+      
+    }
+
+}
 @media all and (max-width:919px){}
 @media all and (max-width:900px){
     .right-side-feed {
@@ -134,6 +152,11 @@
     .sub-nav .menu-bar {
         margin-left: 0em;
       
+    }
+
+    .parent-div-d .right-side {
+        display: none;
+       
     }
  
 }
