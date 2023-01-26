@@ -1,0 +1,310 @@
+
+
+.custom-img img{
+    height: auto;
+    width: 100%;
+}
+
+.custom-a a{
+    text-decoration: none;
+    color: rgb(93,122,39); 
+}
+.custom-a a h2{
+    font-size: 13px;
+    width: 234px;
+    padding-top: 10px;
+
+    
+}
+
+.custom-span span{
+    border-right: 1px solid #ddd;
+    padding-right: 6px;
+}
+
+.custom-a a:hover{
+    color: rgb(93,122,39);
+    text-decoration: underline;
+
+}
+
+
+.right-side-feed{
+    float: right;
+    width: 25%;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+/* -------Football-Scores- */
+/* -------Football-Scores- */
+/* -------Football-Scores- */
+.responsive-Football-Scores{
+    display: none;
+}
+
+
+.right-side-feed .responsive-Football-Scores .menu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(170, 164, 164, 0.686);
+   
+}
+
+.right-side-feed .responsive-Football-Scores .menu h5{
+    border-bottom: 5px solid black;
+}
+
+.right-side-feed .responsive-Football-Scores .menu .icon a{
+    text-decoration: none;
+    color: rgb(93,122,39);
+    font-weight: 700;
+    
+} 
+
+.right-side-feed .responsive-Football-Scores .menu .icon a:hover{
+    text-decoration: underline; 
+} 
+
+.responsive-Football-Scores .date{
+    background-color: rgb(247,247,245);
+    padding: 7px 7px 7px 4px;
+    margin: 7px 7px 7px 0;
+    font-size: 12px;
+}
+
+.responsive-Football-Scores .scores{
+    border-bottom: 1px solid rgba(203, 192, 192, 0.686);
+}
+.responsive-Football-Scores .border-none{
+    border: none;
+}
+
+
+.responsive-Football-Scores .scores .div-1 .scores-result{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.responsive-Football-Scores .scores .div-1 .scores-result a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.911);
+}
+.responsive-Football-Scores .scores .div-1 .scores-result a:hover{
+    text-decoration: underline;
+    color: rgb(93,122,39);
+}
+
+
+.responsive-Football-Scores .scores span{
+    display: flex;
+    
+}
+
+.responsive-Football-Scores .scores span .live{
+   padding: 5px 10px;
+   
+   background-color: rgb(255,210,48);
+   border-right: #ffffff 1px solid;
+   margin-bottom: 10px;
+
+}
+
+.responsive-Football-Scores .scores span .counter{
+    padding: 5px 10px;
+    background-color: rgb(1,116,116);
+    color: #ffffff;
+    border-right: #ffffff 1px solid;
+    margin-bottom: 10px;
+ 
+ }
+
+
+.responsive-Football-Scores .scores span .livepool{
+    background-color: rgb(219,219,219);
+    padding: 4px 15px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+}
+
+.responsive-Football-Scores .scores .div-1 .FT-black{
+    text-align: center;
+    font-weight: 200;
+    color: #000000 !important;
+}
+.responsive-Football-Scores .scores .div-1 p{
+    color: #1DA1F2;
+    text-align: center;
+    font-weight: 200;
+}
+
+.responsiveFootball-Scores .scores-bar .bottom-text{
+    border-bottom: 1px solid rgba(203, 192, 192, 0.686);
+    padding-top: 10px ;
+    padding-bottom: 40px ;
+}
+
+
+.responsive-Football-Scores .scores-bar .bottom-text a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.responsive-Football-Scores .scores-bar .bottom-text a:hover{
+    color: rgb(93,122,39);
+     text-decoration: underline;
+}
+
+
+
+
+/* ------Football-Tables---- */
+/* ------Football-Tables---- */
+/* ------Football-Tables---- */
+
+.responsive-Football-Tables{
+  display: none;
+}
+.right-side-feed .responsive-Football-Tables{
+    margin-top: 30px;
+}
+
+
+.right-side-feed .responsive-Football-Tables .menu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(170, 164, 164, 0.686);
+   
+}
+
+.right-side-feed .responsive-Football-Tables .menu h5{
+
+    border-bottom: 5px solid black;
+}
+
+.right-side-feed .responsive-Football-Tables .menu .icon a{
+    text-decoration: none;
+    color: rgb(93,122,39);
+    font-weight: 700;
+    
+} 
+
+.right-side-feed .responsive-Football-Tables .menu .icon a:hover{
+    text-decoration: underline; 
+}
+
+.responsive-Football-Tables .Table {
+     display: flex;
+    justify-content: space-around;
+}
+
+.responsive-Football-Tables .Table table{
+    margin-top: 20px;
+
+}
+.responsive-Football-Tables .Table th{
+    margin: 1px 1px 1px 1px;
+    padding:15px 0px 0px 20px;
+    background-color:rgb(219 219 219 / 31%);
+    border-bottom: 1px solid #2c2d2e85;
+    border-radius: 5px;
+
+}
+
+
+.responsive-Football-Tables .Table tr{
+    padding:5px 20px;
+    border-bottom: 1px solid #2c2d2e47;
+
+}
+.responsive-Football-Tables .Table .border-dotted{
+    border-bottom: 1px dashed #252525;
+
+}
+
+.responsive-Football-Tables .Table td{
+    padding:5px 20px;
+    font-size: 15px;
+
+}
+
+.responsive-Football-Tables .Table td:nth-child(5){
+    font-weight: 500;
+}
+
+.responsive-Football-Tables .Table td a{
+     color: #000000;
+     text-decoration: none;
+     font-weight: 500;
+
+}
+.responsive-Football-Tables .Table td a:hover{
+     color: rgb(93,122,39);
+     text-decoration: underline;
+}
+
+.responsive-Football-Tables  .bottom-text {
+    border-bottom: 1px solid rgba(203, 192, 192, 0.686);
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+}
+
+
+.responsive-Football-Tables  .bottom-text a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.responsive-Football-Tables  .bottom-text a:hover{
+    color: rgb(93,122,39);
+     text-decoration: underline;
+}
+
+
+
+/* ------------Watch-and-listen------------ */
+/* ------------Watch-and-listen------------ */
+/* ------------Watch-and-listen------------ */
+
+.responsive-Watch-and-listen {
+    margin-top:30px;
+    display: none;
+}
+
+.responsive-Watch-and-listen .news{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding-bottom: 25px;
+    column-gap: 15px;
+    margin-top:15px;
+    
+}
+.responsive-Watch-and-listen .news .img img {
+    width: 12rem;
+    height: auto;
+}
+
+
+.responsive-Watch-and-listen .news h2 {
+    font-size: 14px;
+    
+}
+
+.responsive-Watch-and-listen .news h2 a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+}
+.responsive-Watch-and-listen .news h2 a:hover{
+    color: rgb(93,122,39);
+     text-decoration: underline;
+}
