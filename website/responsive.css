@@ -574,6 +574,10 @@
         width: 100% !important;
         height: 100%;
     }
+    .parent-div-b .section-sub .section-sub-right {
+        width: 105%;
+        margin-left: 13px;
+    }
 }
 @media all and (max-width:350px){
     .child-div-left img {
@@ -588,6 +592,18 @@
 }
 
 @media all and (max-width:328px){
+    .custom-a a h2 {
+        font-size: 14px !important;
+        width: 100% !important;
+        padding-top: 10px;
+    }
+    .parent-div-b .section-sub .section-sub-right {
+        width: 120% !important;
+        margin-left: 10px;
+}
+
+}
+@media all and (max-width:329px){
     .custom-a a h2 {
         font-size: 14px !important;
         width: 100% !important;
