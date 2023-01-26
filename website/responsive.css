@@ -297,14 +297,14 @@
         padding-top: 10px;
     }
 
-    .sports-menu-all {
+    /* .sports-menu-all {
         padding: 10px 0px;
         justify-content: space-around;
         background-color: #000;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-    }
+    } */
     
 }
 
@@ -517,12 +517,12 @@
         font-size: 24px;
     }
 
-    .sports-menu-all {
+    /* .sports-menu-all {
 
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-    }
+    } */
 
     .sports-menu-all .sports-menu ul{
        padding-left: 0px !important;
