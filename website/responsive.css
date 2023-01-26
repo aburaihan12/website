@@ -372,6 +372,11 @@
     .responsive-Football-Scores{
         display: block !important;
       }
+    .responsive-Football-Scores .menu a{
+        color: #000;
+        text-decoration: none;
+        margin-left: 5px;
+      }
     
 
     .responsive-Football-Tables{
