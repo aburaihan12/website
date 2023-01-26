@@ -10,6 +10,16 @@ body, html {
     overflow-x: hidden;
   }
 
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 0rem !important;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .fas {
     font-weight: 500 !important;
 
@@ -20,6 +30,10 @@ body, html {
 }
 
 .header-bg{
+    background-color: rgb(255,210,48);
+}
+
+.bg-nevbar{
     background-color: rgb(255,210,48);
 }
 
@@ -548,9 +562,9 @@ body, html {
     text-decoration: underline;
 
 }
-.parent-div-d .left-side  .section-center a h2{
+.parent-div-d .left-side .section-center a h2 {
     font-size: 22px;
-
+    padding-top: 20px;
 }
 .parent-div-d .left-side  .section-center p{
     font-size: 13px;
@@ -767,6 +781,8 @@ body, html {
      
   
   
+     padding-top: 20px;
+     display: inline-block;
   }
   .parent-div-f .main-section  .text-section a:hover{
       color: rgb(93,122,39);
@@ -844,7 +860,7 @@ body, html {
   .about-section .about{
     
      display: grid;
-     grid-template-columns: 1fr 1fr 20%;
+     grid-template-columns: 1fr 1fr;
      padding: 15px 0;
      
 
@@ -971,11 +987,12 @@ body, html {
 /* -------Football-Scores- */
 /* -------Football-Scores- */
 
-.right-side-feed .Football-Scores .menu{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(170, 164, 164, 0.686);
-   
+
+.right-side-feed .Football-Tables .menu {
+    display: block;
+}
+.right-side-feed .Football-Tables .menu a {
+    text-decoration: none;
 }
 
 .right-side-feed .Football-Scores .menu h5{
@@ -1100,11 +1117,13 @@ body, html {
 }
 
 
-.right-side-feed .Football-Tables .menu{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(170, 164, 164, 0.686);
-   
+.right-side-feed .Football-Tables .menu {
+    display: inline-block;
+}
+.right-side-feed .Football-Tables .menu a {
+    margin-right:5px;
+    color: #000;
+    font-weight: bold;
 }
 
 .right-side-feed .Football-Tables .menu h5{
@@ -1201,7 +1220,7 @@ body, html {
         padding-right: 5px;
         font-weight: bold;
 }
-.responsive-Football-Scores .menu a {
+.Football-Scores .menu a {
         text-decoration: none;
         color: #111;
         font-size: 13px;
