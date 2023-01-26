@@ -571,7 +571,7 @@
         width: 300%;
     }
     .parent-div-b .section .section-sub .img img {
-        width: 94% !important;
+        width: 100% !important;
         height: 100%;
     }
 }
@@ -586,6 +586,21 @@
         padding-top: 10px;
     }
 }
+
+@media all and (max-width:328px){
+    .custom-a a h2 {
+        font-size: 14px !important;
+        width: 100% !important;
+        padding-top: 10px;
+    }
+    .parent-div-b .section-sub .section-sub-right {
+        width: 120% !important;
+        margin-left: 10px;
+}
+
+}
+
+
 @media all and (max-width:308px){
     .about-section .about .about-left i {
         font-size: 36px;
@@ -599,3 +614,4 @@
 
     
 }
+
